@@ -1,0 +1,98 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.hero{
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), 
+  rgba(0, 0, 0, 0.5)), url(background2.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+h1{
+  font-size: 4rem;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.timebox{
+  display: flex;
+  gap: 90px;
+}
+
+.time{
+  text-align: center;
+}
+
+.time h2{
+  font-size: 5rem;
+  font-weight: 100;
+}
+
+/* Tambahkan styling untuk tema */
+.theme {
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 20px;
+  color: white;
+  background: rgba(255, 255, 255, 0.2);
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 10px;
+  backdrop-filter: blur(5px);
+}
+
+/* Tambahkan styling untuk lokasi & tanggal */
+.event-info {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.location, .date {
+  font-size: 1.2rem;
+  font-weight: 400;
+  background: rgba(255, 255, 255, 0.2);
+  display: inline-block;
+  padding: 8px 15px;
+  border-radius: 10px;
+  backdrop-filter: blur(5px);
+}
+
+/* Styling untuk judul utama */
+h1 {
+  font-size: 4rem;
+  font-weight: 500;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+/* Buat judul lebih standout */
+.highlight {
+  font-weight: 700;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 5px 15px;
+  border-radius: 8px;
+}
+
+/* Styling untuk countdown */
+.timebox {
+  display: flex;
+  gap: 80px;
+  margin-top: 15px;
+}
+
+.time h2 {
+  font-size: 5rem;
+  font-weight: 300;
+}
